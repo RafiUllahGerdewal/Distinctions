@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KHK Neuro Centre | Neurologist in Bangalore | Stroke Treatment</title>
+    <meta name="description" content="KHK Neuro Centre is a leading neurology and stroke care center in Bangalore, providing expert treatment for epilepsy, neurodegenerative disorders, and more.">
+    <meta name="keywords" content="neurologist Bangalore, stroke treatment Bangalore, epilepsy care Bangalore, KHK Neuro Centre, neurology clinic Bangalore">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body class="bg-white text-gray-800 font-sans leading-normal tracking-normal">
+
+    <!-- Header -->
+    <header class="bg-white shadow-md">
+        <nav class="container mx-auto px-6 py-4 flex justify-between items-center flex-wrap">
+            <a href="index.html" class="text-2xl font-bold text-blue-800">KHK Neuro Centre</a>
+            <button class="md:hidden text-gray-600 hover:text-blue-600 focus:outline-none" id="mobile-menu-button">
+                <svg class="h-6 w-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path>
+                </svg>
+            </button>
+            <div class="hidden md:flex md:items-center md:w-auto w-full" id="mobile-menu">
+                <a href="index.html" class="text-gray-600 hover:text-blue-600">Home</a>
+                <a href="about.html" class="text-gray-600 hover:text-blue-600">About</a>
+                <a href="contact.html" class="text-gray-600 hover:text-blue-600">Contact</a>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Banner -->
+    <section class="bg-blue-700 text-white">
+        <div class="container mx-auto px-6 py-20 text-center">
+            <h1 class="text-3xl md:text-5xl font-extrabold leading-tight">Your Trusted Partner in Neurological Health</h1>
+            <p class="mt-4 text-md md:text-xl leading-relaxed">At KHK Neuro Clinic, we recognize the challenges and are dedicated to helping you navigate them with expert care.</p>
+            <a href="#" class="mt-8 inline-block bg-white text-blue-700 font-bold py-3 px-6 rounded-lg hover:bg-gray-200">Book an Appointment</a>
+        </div>
+    </section>
+
+    <main class="container mx-auto px-6 py-8">
+        <!-- About Us Section -->
+        <section id="about" class="py-20">
+            <div class="container mx-auto px-6 text-center">
+                <h2 class="text-3xl font-bold text-gray-800 mb-6">We are committed to providing world-class care</h2>
+                <p class="mt-4 text-md md:text-lg text-gray-600 max-w-4xl mx-auto leading-relaxed">At KHK Neuro Clinic, we specialize in treating a wide range of neurological conditions, including brain and spine disorders, movement disorders, neuromuscular diseases, and chronic pain syndromes. Our expert team combines advanced diagnostic tools and personalized care to ensure effective treatment.</p>
+                <a href="about.html" class="mt-6 inline-block bg-blue-600 text-white font-bold py-3 px-6 rounded-lg hover:bg-blue-700">More About Us</a>
+            </div>
+        </section>
+
+        <!-- Our Services Section -->
+        <section id="services" class="bg-gray-50 py-20">
+            <div class="container mx-auto px-6 text-center">
+                <h2 class="text-3xl font-bold text-gray-800 mb-6">What We Offer</h2>
+                <div class="mt-10 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                    <div class="bg-white p-8 rounded-lg shadow-md">
+                        <h3 class="text-xl font-bold">Epilepsy</h3>
+                        <p class="mt-2 text-gray-600">Comprehensive care for seizure disorders with personalized treatment plans.</p>
+                        <a href="#" class="mt-4 inline-block text-blue-600 hover:underline">Learn More</a>
+                    </div>
+                    <div class="bg-white p-8 rounded-lg shadow-md">
+                        <h3 class="text-xl font-bold">Neurodegenerative Disorders</h3>
+                        <p class="mt-2 text-gray-600">Expert care for conditions like Alzheimer's, Parkinson's, and ALS.</p>
+                        <a href="#" class="mt-4 inline-block text-blue-600 hover:underline">Learn More</a>
+                    </div>
+                    <div class="bg-white p-8 rounded-lg shadow-md">
+                        <h3 class="text-xl font-bold">Stroke Care</h3>
+                        <p class="mt-2 text-gray-600">Rapid diagnosis and treatment to prevent and manage stroke-related complications.</p>
+                        <a href="#" class="mt-4 inline-block text-blue-600 hover:underline">Learn More</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Doctors Section -->
+        <section id="doctors" class="py-20">
+            <div class="container mx-auto px-6 text-center">
+                <h2 class="text-3xl font-bold text-gray-800 mb-6">Our Expert Doctors</h2>
+                <p class="mt-4 text-md md:text-lg text-gray-600 leading-relaxed">Our team of dedicated and experienced neurologists.</p>
+                <!-- Doctor profiles will go here -->
+            </div>
+        </section>
+
+        <!-- Testimonials Section -->
+        <section id="testimonials" class="bg-gray-50 py-20">
+            <div class="container mx-auto px-6 text-center">
+                <h2 class="text-3xl font-bold text-gray-800 mb-6">What Our Patients Say</h2>
+                <div class="mt-10 max-w-4xl mx-auto">
+                    <div class="bg-white p-8 rounded-lg shadow-md">
+                        <p class="text-gray-600 italic leading-relaxed">"Excellent facility, friendly and professional staffs, Excellent doctors and physiotherapists. My 87 years old father was taken care very well and he recocered, and was discharged with great improvement. Thanks to everyone at Sukino!!!"</p>
+                        <p class="mt-4 font-bold">- Revathi Naidu</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-8">
+        <div class="container mx-auto px-6 text-center">
+            <p>&copy; 2024 KHK Neuro Centre. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        const mobileMenuButton = document.getElementById('mobile-menu-button');
+        const mobileMenu = document.getElementById('mobile-menu');
+
+        mobileMenuButton.addEventListener('click', () => {
+            mobileMenu.classList.toggle('hidden');
+        });
+    </script>
+    <script src="js/main.js" defer></script>
+</body>
+</html>
+
+
+
+
+
+
+
